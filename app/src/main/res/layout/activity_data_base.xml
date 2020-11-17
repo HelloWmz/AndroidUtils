@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <Button
+        android:text="创建"
+        android:id="@+id/creat_data_base"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:text="更新"
+        android:id="@+id/creat_data_up_data_base"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:text="增加"
+        android:id="@+id/creat_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:text="删除"
+        android:id="@+id/creat_data_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:text="改"
+        android:id="@+id/creat_data_updata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:text="查询"
+        android:id="@+id/creat_data_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+
+</LinearLayout>

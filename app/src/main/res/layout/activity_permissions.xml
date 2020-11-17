@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="申请权限"
+        />
+    <EditText
+        android:background="@drawable/iten"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        />
+
+    <com.example.admin.androidutils.ui.PercentView
+        android:background="@color/colorPrimary"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        />
+
+    <EditText
+        android:id="@+id/et_main"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:gravity="center_vertical"
+        android:hint="第一次打开键盘为数字键盘"
+        android:paddingLeft="5dp"
+        android:textColor="@android:color/black" />
+
+
+</LinearLayout>

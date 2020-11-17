@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.example.admin.androidutils">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
+    <application
+        android:name=".ui.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".ui.EmptyActivity">
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.PermissionsActivity"/>
+        <activity android:name=".ui.TakePictureActivity"/>
+        <activity android:name=".ui.BluetoothActivity"/>
+        <activity android:name=".ui.MyNDKActivity"/>
+        <activity android:name=".ui.AlbumActivity"/>
+        <activity android:name=".ui.SlidinguppanelActivity"/>
+        <activity android:name=".ui.UIActivity"/>
+        <activity android:name=".ui.ExoPlayerActivity"/>
+        <activity android:name=".ui.BaseDialogActivity"/>
+        <activity android:name=".ui.RetrofitUtilsActivity"/>
+        <activity android:name=".ui.PopActivity"/>
+        <activity android:name=".ui.StarActivity"/>
+        <activity android:name=".ui.DataBaseActivity"/>
+        <activity android:name=".ui.RecylerActivity"/>
+        <activity android:name=".ui.DiffUtilActivity"/>
+        <activity android:name=".ui.AnimatorActivity"/>
+        <activity android:name=".ui.PicActivity"/>
+        <activity android:name=".ui.FingerprintActivity"/>
+        <activity android:name=".ui.SpeechActivity"/>
+        <activity android:name=".ui.MPAndroidChartActivity"/>
+        <activity android:name=".ui.HelloChartActivity"/>
+        <activity android:name=".ui.CombinationActivity"/>
+        <activity android:name=".ui.StickyActivity"/>
+        <activity android:name=".ui.StepViewActivity"/>
+        <activity android:name=".utils.sign.SignActivity"/>
+        <activity android:name=".ui.SignDemoActivity"/>
+        <activity android:name=".FlowlayoutActivity"/>
+        <activity android:name=".ViewModeActivity"/>
+        <activity android:name=".ui.DragActivity"/>
+        <activity android:name=".ui.DragFlowLayoutActivity"/>
+        <activity android:name=".ui.DragRecylerViewActivity"/>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.android7.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"/>
+        </provider>
+    </application>
+
+</manifest>

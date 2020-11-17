@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">AndroidUtils</string>
+    <string name="smssdk_resend_identify_code">重新发送</string>
+    <plurals name="contunt">
+        <item quantity="one">你是谁</item>
+        <item quantity="other">你 %d 谁.</item>
+    </plurals>
+    <string name="frommat" translatable="false">一次 %1$s 你是谁啦？%2$s 旅游啦！</string>
+    <string name="monday">星期一</string>
+    <string name="tuesday" translatable="false">星期二</string>
+    <string name="wednesday" translatable="false">星期三</string>
+    <string name="thursday" translatable="false">星期四</string>
+    <string name="friday">星期五</string>
+    <string name="saturday" translatable="false">星期六</string>
+    <string name="sunday" translatable="false">星期日</string>
+    <string name="today" translatable="false">今天</string>
+
+    <string-array name="cms_week">
+        <item>@string/sunday</item>
+        <item>@string/monday</item>
+        <item>@string/tuesday</item>
+        <item>@string/wednesday</item>
+        <item>@string/thursday</item>
+        <item>@string/friday</item>
+        <item>@string/saturday</item>
+    </string-array>
+
+</resources>

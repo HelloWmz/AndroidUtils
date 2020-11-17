@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/speechButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击"/>
+    <TextView
+        android:layout_marginTop="@dimen/dp_40"
+        android:text="In his congratulatory message, Putin extended sincere New Year greetings to President Xi Jinping and wished all Chinese people happiness and well-being. Putin said that in 2019, with the joint efforts of both sides, Russia and China will make significant progress in their comprehensive strategic partnership in the new era. President Xi Jinping and I have met many times and reached a series of important consensus, opening up a new vision of mutually beneficial cooperation between Russia and China in various fields. Cooperation between the two governments, legislatures and departments has been fruitful. Russia-China Eastern Route Natural Gas Pipeline Completed and Opened for Ventilation. The two sides successfully held the Year of Local Cooperation and Exchange, further promoting mutually beneficial cooperation between the two countries. Next year, we will start another large-scale national theme year-the year of scientific and technological innovation between Russia and China. Russia attaches great importance to this. I firmly believe that with our joint efforts, all-round cooperation between Russia and China and constructive cooperation between the two countries in international affairs will continue to reach new heights."
+        android:id="@+id/speech_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
