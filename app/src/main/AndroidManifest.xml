@@ -66,6 +66,7 @@
         <activity android:name=".ui.DragActivity"/>
         <activity android:name=".ui.DragFlowLayoutActivity"/>
         <activity android:name=".ui.DragRecylerViewActivity"/>
+        <activity android:name=".ui.LayoutManagerActivity" />
 
         <provider
             android:name="android.support.v4.content.FileProvider"

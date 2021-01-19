@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity implements BaseQuickAdapter.
             , "五角星", "RecyclerView 配合 DiffUtil", "属性动画", "图片缩放", "指纹识别"
             , "语音识别", "MPAndroidChart柱形图", "HelloChart柱形图", "组合动画", "粘性recylerView"
             , "计步器View", "签名", "flowlayout使用", "ViewMode使用",
-            "DragActivity", "dragflowlayout", "Rv嵌套拖动"};
+            "DragActivity", "dragflowlayout", "Rv嵌套拖动","自定义LayoutManager"};
     private ArrayList<Class> mClasses = new ArrayList<>();
     private int REQUEST_CODE_TAKE_PHOTO = 200;
     //最后照片保存的本地地址
@@ -158,6 +158,7 @@ public class MainActivity extends AppCompatActivity implements BaseQuickAdapter.
         mClasses.add(DragActivity.class);
         mClasses.add(DragFlowLayoutActivity.class);
         mClasses.add(DragRecylerViewActivity.class);
+        mClasses.add(LayoutManagerActivity.class);
         LogUtils.e("wmz", "nishi1");
         //使用线程池
         ExecutorService executorService = ThreadUtil.newDynamicSingleThreadedExecutor((r) -> {
